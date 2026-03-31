@@ -1,4 +1,4 @@
-[2/13/2026 12:31 AM] Nicu: #include <Wire.h>
+#include <Wire.h>
 #include <Servo.h>
 #include <math.h>
 
@@ -138,7 +138,7 @@ void loop() {
   
   delay(50);
 }
-[2/13/2026 12:31 AM] Nicu: // ============ GESTIONARE BUTOANE ============
+// ============ GESTIONARE BUTOANE ============
 void handleButtons() {
   // Buton POWER (D4) - Toggle ON/OFF
   static bool lastPowerState = LOW;
